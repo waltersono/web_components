@@ -11,6 +11,12 @@ This project can be installed by downloading the zip project and extracting on y
 
 ## Usage
 
+### Alert Danger
+
+Just add the class alert--danger
+
+![Alert Danger](/img/alert_1_danger_example)
+
 
 ## License
 The Guess My Number is an open-source project license under the [MIT license](license)
