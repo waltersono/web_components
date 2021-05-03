@@ -13,7 +13,7 @@ This project can be installed by downloading the zip project and extracting on y
 
 ### Alert Danger
 
-Just add the class alert--danger
+Just add the class alert--danger v1
 
 ![Alert Danger](screenshots/alert_1_danger_example)
 
