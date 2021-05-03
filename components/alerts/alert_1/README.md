@@ -15,7 +15,7 @@ This project can be installed by downloading the zip project and extracting on y
 
 Just add the class alert--danger
 
-![Alert Danger](/img/alert_1_danger_example)
+![Alert Danger](components/alerts/alert_1/screenshots/alert_1_danger_example)
 
 
 ## License
