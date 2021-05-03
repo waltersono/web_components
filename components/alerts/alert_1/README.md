@@ -22,7 +22,7 @@ No _JavaScript_ or _CSS_ framework were used in this component.
 
 ## Installation
 
-Copy and Paste the code on the [CSS](alert_1.css) file and [JavaScript](alert_1.css) file to your project or download the package
+Copy and Paste the code on the [HTML](alert_1.html), [CSS](alert_1.css) and [JavaScript](alert_1.css) file to your project or download the project.
 
 ## Usage
 
@@ -35,7 +35,6 @@ Copy and Paste the code on the [CSS](alert_1.css) file and [JavaScript](alert_1.
     `</div>`
     `<div class="alert__close"><i class="fa fa-times"></i></div>`
 `</div>`
-
 ### CSS
 
 To use each one of the four different alert add one of the classes to the alert block
