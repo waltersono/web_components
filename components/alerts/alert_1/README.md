@@ -13,7 +13,10 @@ This components uses _Font Awesome_ for the icons. You can download or use the C
 No _JavaScript_ or _CSS_ framework were used in this component.
 
 ## Installation
-Download the project
+
+Copy and Paste the links to the CSS file and JavaScript file to your project or download the package and use them locally.
+
+CSS: [CSS](alert_1.css)
 
 ## Examples
 ![Alert Danger](screenshots/alert_1_danger.png)
@@ -36,6 +39,8 @@ This *Alerts* offers four levels of severity with differents icons and colors.
 `</div>`
 
 ### CSS
+
+
 For the different types of alerts you:
 * *Danger*: `alert--danger`
 * *Warning*: `alert--warning`
