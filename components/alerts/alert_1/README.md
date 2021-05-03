@@ -1,4 +1,12 @@
 # Alert - Style 1
+This *Alerts* offers four levels of severity with differents icons and colors.
+
+## Examples
+![Alert Danger](screenshots/alert_1_danger.png)
+![Alert Warning](screenshots/alert_1_warning.png)
+![Alert Info](screenshots/alert_1_info.png)
+![Alert Success](screenshots/alert_1_success.png)
+
 
 ## Technologies
 * HTML
@@ -14,19 +22,9 @@ No _JavaScript_ or _CSS_ framework were used in this component.
 
 ## Installation
 
-Copy and Paste the links to the CSS file and JavaScript file to your project or download the package and use them locally.
-
-CSS: [CSS](alert_1.css)
-
-## Examples
-![Alert Danger](screenshots/alert_1_danger.png)
-![Alert Warning](screenshots/alert_1_warning.png)
-![Alert Info](screenshots/alert_1_info.png)
-![Alert Success](screenshots/alert_1_success.png)
+Copy and Paste the code on the [CSS](alert_1.css) file and [JavaScript](alert_1.css) file to your project or download the package
 
 ## Usage
-
-This *Alerts* offers four levels of severity with differents icons and colors.
 
 ### HTML
 `<div class="alert">`
@@ -40,6 +38,7 @@ This *Alerts* offers four levels of severity with differents icons and colors.
 
 ### CSS
 
+To use each one of the four different alert add one of the classes to the alert block
 
 For the different types of alerts you:
 * *Danger*: `alert--danger`
@@ -74,7 +73,6 @@ You can change the close time by change the value at the _JavaScript_ file:
 If you which to close the alert dynamically, you can do so by calling the following _JavaScript_ function:
 
 `closeAlert()`
-
 
 
 ## License
