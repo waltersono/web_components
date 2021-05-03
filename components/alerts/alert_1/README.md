@@ -22,7 +22,7 @@ No _JavaScript_ or _CSS_ framework were used in this component.
 
 ## Installation
 
-Copy and Paste the code on the [HTML](alert_1.html), [CSS](alert_1.css) and [JavaScript](alert_1.css) file to your project or download the project.
+Copy and Paste the code on the [HTML](alert_1.html), [CSS](alert_1.css) and [JavaScript](alert_1.js) file to your project or download the project.
 
 ## Usage
 
