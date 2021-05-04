@@ -26,29 +26,9 @@ Copy and Paste the code on the [HTML](alert_1.html), [CSS](alert_1.css) and [Jav
 
 ## Usage
 
-### HTML
-`<div class="alert">`
-    `<div class="alert__icon"><i class="fa fa-check"></i></div>`
-    `<div class="alert__content">`
-        `<div class="alert__title">Alert title</div>`
-        `<div class="alert__message">This is the alert message.</div>`
-    `</div>`
-    `<div class="alert__close"><i class="fa fa-times"></i></div>`
-`</div>`
-### CSS
+To trigger the alert just call the JavaScript function `showAlert(type, title, message)`
 
-To use each one of the four different alert add one of the classes to the alert block
-
-For the different types of alerts you:
-* *Danger*: `alert--danger`
-* *Warning*: `alert--warning`
-* *Info*: `alert--info`
-* *Success*: `alert--success`
-
-### JavaScript
-
-
-#### Displaying the alert
+### Displaying the alert
 
 To trigger the alert use the function `showAlert(type, title, message)`
 
@@ -57,22 +37,12 @@ To trigger the alert use the function `showAlert(type, title, message)`
 * *Title*: Indicates the title of the alert
 * *Message*: Indicates the message the alert is suppost to send to the user
 
-This function will add the `alert--show` class to the `alert` block
 
-Will also add the `alert--` the the type of the alert (`danger,success,info, warning`)
-
-##### Closing the alert
+### Closing the alert
 
 The alert will automatically close after 5 seconds
 
-You can change the close time by change the value at the _JavaScript_ file:
-
-`alertIntervalObject = setTimeout(function () { clearAlertClasses(); }, 5000);`
-
-If you which to close the alert dynamically, you can do so by calling the following _JavaScript_ function:
-
-`closeAlert()`
-
+If you which to close the alert dynamically, you can do so by calling the following _JavaScript_ function: `closeAlert()`
 
 ## License
 The Guess My Number is an open-source project license under the [MIT license](license)

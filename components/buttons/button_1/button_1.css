@@ -1,0 +1,19 @@
+:root {
+    --color-primary: blue;
+    --color-secondary: green;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 1.5rem 2rem;
+}
+
+.btn--white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn--round {
+    border-radius: 100px;
+}

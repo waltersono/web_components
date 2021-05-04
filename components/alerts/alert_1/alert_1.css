@@ -10,6 +10,7 @@
     max-width: 500px;
     opacity: 0.95;
     transition: top 0.8s;
+    background-color: #ccc;
 }
 
 .alert__icon {
