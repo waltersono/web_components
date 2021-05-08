@@ -31,5 +31,5 @@ Copy and Paste the code on the [HTML](button_1.html), [CSS](button_1.css) file t
 * `btn--xl`
 
 ## License
-The Guess My Number is an open-source project license under the [MIT license](license)
+This is an open-source project license under the [MIT license](license)
 

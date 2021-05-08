@@ -1,0 +1,34 @@
+.container {
+    max-width: 500px;
+    margin: 10rem auto;
+}
+
+.composition {
+    position: relative;
+}
+.composition__photo {
+    width: 55%;
+    position: absolute;
+    outline-offset: 2rem;
+    transition: all 0.2s;
+}
+.composition__photo:hover {
+    transform: scale(1.1);
+    outline: 1rem solid #55c57a;
+    z-index: 10;
+}
+.composition__photo--p1 {
+    top: 0;
+    left: 0;
+}
+.composition__photo--p2 {
+    top: 3rem;
+    right: 0;
+}
+.composition__photo--p3 {
+    top: 8rem;
+    left: 20%;
+}
+.composition:hover .composition__photo:not(:hover) {
+    transform: scale(0.95);
+}
